@@ -9,7 +9,7 @@ import { useHistory } from 'react-router-dom';
 function Home() {
     const history = useHistory();
     const [movies, setMovies] = useState([])
-    const [] = useState(1)
+
     useEffect(() => {
         fillMovies();
     }, [])

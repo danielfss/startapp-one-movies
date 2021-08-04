@@ -1,6 +1,6 @@
 import './Movie.css';
 
-export interface Movie {
+export interface IMovie {
     title: string;
     releaseDate: any;
     overview: string;
@@ -12,7 +12,7 @@ export interface Movie {
 }
 
 export function Movie({ title, releaseDate, overview, posterPath, status, 
-                        runtime, budget, revenue }: Movie) {
+                        runtime, budget, revenue }: IMovie) {
     const IMAGE_BASE_URL = 'https://image.tmdb.org/t/p/w500/'
     return (
         <div className="movieDetails">

@@ -8,16 +8,10 @@ import './Details.css';
 function Details() {
     const { id } = useParams<any>();
     const [details, setDetails] = useState<any>({})
-    const movieDetails = async () => {
-        const mDetails = await getMovieDetails(id)
-        const { data } = mDetails;
-        setDetails(data);
-        console.log(data)
-    }
 
     useEffect(() => {
-        movieDetails();
-    }, [])
+        getMovieDetails(id).then(mDetails => {setDetails(mDetails.data)});
+    }, [id])
 
     return (
 
