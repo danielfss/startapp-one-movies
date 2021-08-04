@@ -6,9 +6,9 @@ Consumir a API https://www.themoviedb.org/ e exibir a lista de filmes utilizando
 
 # ORIENTAÇÕES PARA O FUNCIONAMENTO #
 1. Clonar o repositório na pasta desejada do seu computador:
-- git clone https://github.com/danielfss/desafio-cubos.git
+- git clone https://github.com/danielfss/startapp-one-movies.git
 
-2. Abra o projeto em um editor de texto de sua preferência (eu utilizei o VSCode);
+2. Abra o projeto no editor de texto VSCode (ou em algum editor de sua preferência).
 
 3. Dentro do terminal, execute:
 
