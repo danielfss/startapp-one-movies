@@ -1,0 +1,15 @@
+.box {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+input {
+    width: 600px;
+    outline: none;
+    border-radius: 40px;
+    border: none;
+    background-color: #F4F4F4;
+    padding-left: 30px;
+    height: 35px;
+}
