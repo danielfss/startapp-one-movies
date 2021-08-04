@@ -1,10 +1,17 @@
 # startapp-one-movies
 Desafio técnico - Startapp.one
 
+
+
 ## Introdução
 Consumir a API https://www.themoviedb.org/ e exibir a lista de filmes utilizando React no front-end.
 
-# ORIENTAÇÕES PARA O FUNCIONAMENTO #
+## ORIENTAÇÕES PARA O FUNCIONAMENTO
+
+### Online - Link para acessar a aplicação:
+https://startapp-one-movies.vercel.app/
+
+### Local
 1. Clonar o repositório na pasta desejada do seu computador:
 - git clone https://github.com/danielfss/startapp-one-movies.git
 
